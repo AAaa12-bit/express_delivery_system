@@ -80,7 +80,7 @@ with tab2:
 with tab3:
     st.subheader("数据统计看板")
     st.write(f"网点总数量：{len(fence_dict)}")
-    addr_labels = ["标准地址", "模糊地址", "简写地址"]
+    addr_labels = ["Standard", "Fuzzy", "Abbreviation"]
     acc_values = [0.9335, 0.9543, 0.8961]
     fig, ax = plt.subplots(figsize=(8, 5))
     bars = ax.bar(addr_labels, acc_values, color=["#3498db", "#2ecc71", "#e74c3c"])
