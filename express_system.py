@@ -1,3 +1,7 @@
+import matplotlib.pyplot as plt
+plt.rcParams["font.sans-serif"] = ["WenQuanYi Zen Hei"]
+plt.rcParams["axes.unicode_minus"] = False
+
 import os
 import re
 import json
